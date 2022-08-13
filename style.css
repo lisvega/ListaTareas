@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(15, 132, 99);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(13, 141, 66);
+}
+
+
+/*este es el contenedor que centra mi cajita que incluye Lista de
+tareas y donde añados la tareas*/
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+}
+
+/*
+*/
+
+
+.search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+form {
+    display: flex;
+}
+
+
+/*al imput le doy su padding, usé outline: none, para  establecer el estilo del contorno que se dibuja al rededor de mi elemento*/
+
+input {
+    padding: 15px 10px;
+    outline: none;
+    width: 400px;
+}
+
+
+.li-container {
+    background-color: white;
+    width: 100%;
+    color: rgb(74, 16, 146);
+    margin-top: 20px;
+}
+
+
+li {
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+}
+
+li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+.btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #a80c31;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    font-size: 1.2em;
+}
+
+.btn-delete:hover {
+    cursor: pointer;
+    background-color: rgb(16, 181, 74);
+}
+
+.btn-add {
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: rgb(121, 214, 40);
+    font-size: 1.4rem;
+    outline: none;
+}
+
+.btn-add:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+}
+
+
+.empty {
+    color: darkslategrey;
+}
